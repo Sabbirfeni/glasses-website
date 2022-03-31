@@ -1,10 +1,14 @@
-/*****************************
+/*****************************************
 Common css start
-******************************/
+******************************************/
 * {
 	padding: 0%;
 	margin: 0%;
 }
+
+/* logo google font */
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&display=swap');
+
 body{
 	overflow-x: hidden;
 }
@@ -18,23 +22,40 @@ a {
 	font-size: clamp(0.9rem, 2vw, 1.3rem);
 } */
 
-/*****************************
+/*****************************************
 Common css end
-******************************/
+******************************************/
 
 
 
-/* Navbar css start */
+
+
+
+
+/*****************************************
+ Navbar css start 
+*****************************************/
+.navbar {
+	background-color: #17d122;
+}
+.navbar-brand {
+
+}
 .nav-item {
 	position: relative;
 	padding: 10px;
 }
+.nav-item a, .dropbtn {
+	color: white;
+	font-weight: bold;
+}
+
 .nav-item::after {
 	content: "";
 	position: absolute;
 	width: 0px;
 	height: 4px;
-	background-color: #2b85fa;
+	background-color: white;
 	bottom: 0px;
 	left: 0px;
 	transition: 0.4s;
@@ -44,19 +65,19 @@ Common css end
 }
 .dropbtn {
 	background-color: #04aa6d00;
-	color: black;
+	/* color: black; */
 	/* padding: 16px; */
 	font-size: 16px;
 	border: none;
   }
   
-  .dropdown {
+.dropdown {
 	position: relative;
 	display: inline-block;
 	padding: 7px;
-  }
+}
   
-  .dropdown-content {
+.dropdown-content {
 	display: none;
 	position: absolute;
 	background-color: #f1f1f1;
@@ -64,29 +85,33 @@ Common css end
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index: 1;
 	top: 50px;
-  }
+}
   
-  .dropdown-content a {
+.dropdown-content a {
 	color: black;
 	padding: 12px 16px;
 	text-decoration: none;
 	display: block;
-  }
-  
-  .dropdown-content a:hover {background-color: #ddd;}
-  
-  .dropdown-container:hover .dropdown-content {display: block;}
-  
-  /* .dropdown:hover .dropbtn {
-	  color: #4d9efc;
-	} */
+}
 
-  /* Navbar css end */
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown-container:hover .dropdown-content {display: block;}
 
 
 
+/*****************************************
+Navbar css end 
+*****************************************/
+
+
+
+
+
   
-/* home page style start */
+/*****************************************
+ home page style start 
+ *****************************************/
 #home-banner{
     background-image: url('../images/matthieu-dixte-ONanvin0ZgI-unsplash.jpg');
     background-size: cover;
@@ -125,7 +150,7 @@ Common css end
 	position: absolute;
 	width: 0%;
 	height: 100%;
-	background-color: #2b85fa;
+	background-color: #17d122;
 	top: 0%;
 	left: 0%;
 	border-radius: 5px;
@@ -138,9 +163,26 @@ Common css end
 .home button:hover {
 	color: white;
 }
-/* home page style ends  */
+/*****************************************
+ home page style ends
+ *****************************************/
 
 
+
+
+
+
+ /*****************************************
+ Best seller style start
+ *****************************************/
+ .best-seller-links a {
+	 color: black;
+	 font-weight: bold;
+	 transition: 0.3s;
+ }
+ .best-seller-links a:hover {
+	color: #17d122;
+}
 .box {
 	width: 450px;
 	height: 380px;
@@ -220,19 +262,27 @@ Common css end
 	text-align: center;
 
 }
-#btn-mid a:hover{
+/* #btn-mid a:hover{
 	color: black;
 	font-weight: bold;
-}
+} */
 
-#btn-view a:hover{
+/* #btn-view a:hover{
 	color: black;
 	font-weight: bold;
 
-}
+} */
+/*****************************************
+ Best seller style end 
+ *****************************************/
 
 
-/* vision style start  */
+
+
+
+/*****************************************
+ vision style start 
+ *****************************************/
 
 #vision{
 	background: linear-gradient(156.65deg, #92A3BB 0.61%, #BDC7D5 36.45%, #C6D2E2 61.16%, #7289AB 101.84%) 
@@ -245,25 +295,38 @@ Common css end
 
 /* more about style  */
 #more-about{
-	background-image: url('../images/M_GreenShipping.jpeg');
+	background-image: url('../images/sean-pollock-PhYq704ffdA-unsplash.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	height: 300px;
-	margin-top: 20px;
-
+	padding: 30px 0px 30px 0px;
+	position: relative;
+	z-index: 2;
 }
-
+#more-about::after {
+	content: "";
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	background-color: #0000007a;
+	z-index: -1;
+}
 .more a{
 	text-decoration: underline;
 	color: white;
 }
 
 #footer-main{
-	background-color: #557b92;
+	background-color: #17d122;
 	height: 500px;
-	margin-top: 25px;
 }
+/*****************************************
+ vision style end 
+ *****************************************/
+
 
 
 
@@ -273,10 +336,5 @@ Common css end
 		width: 100%;
 		
 	}
-	
-	
-	
-
-
 	
 }
