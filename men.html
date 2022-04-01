@@ -5,47 +5,78 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Men's Eyeglasses</title>
+    <!-- link lightslider  -->
+    <link rel="stylesheet" type="text/css" href="assets/css/lightslider.css">
+    
      <!-- Bootstrap cdn Link  -->
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
     <!-- font awsome link  -->
     <script src="https://kit.fontawesome.com/0f5f4922e8.js" crossorigin="anonymous"></script>
+
     <!-- css link  -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
+
+
+
+
 </head>
 <body>
     
-        <!-- nav section start  -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="container">
-            <a class="navbar-brand" href="index.html">
-              <!-- <img src="" alt="" width="40" height="40" class="d-inline-block align-text-center"> -->
-              LensCrafters </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ms-auto mb-lg-0">
-                <li class="nav-item dropdown">
-                  <span class="nav-link dropdown-toggle active" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    EYEGLASSES
-                  </span>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item "  href="./men.html">Men's Eyeglasses</a></li>
-                    <li><a class="dropdown-item"  href="./women.html">Women's Eyeglasses</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#about">SUNGLASSES</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#about">CONTACT LENSES</a>
-                </li>
-                
+
+    <!--*************************************
+    nav section start
+    ***************************************-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand text-white" href="index.html">
+          <!-- <img src="" alt="" width="40" height="40" class="d-inline-block align-text-center"> -->
+         <h2>LensCrafters</h2></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-lg-0">
+            <li class="nav-item dropdown-container d-flex align-items-center justify-content-center">
+              <div class="dropdown">
+                <button class="dropbtn">EYE GLASSES</button>
+                <div class="dropdown-content">
+                  <a href="men.html"><img style="width: 30px; height: 30px; border-radius: 50%;" src="assets/images/man.png" alt=""> Men's Glasses</a>
+                  <a href="women.html"><img style="width: 30px; height: 30px; border-radius: 50%;" src="assets/images/woman.png" alt=""> Women's Glasses</a>
+                </div>
+              </div>
+            </li>
+            <!-- <li class="nav-item dropdown">
+              <span class="nav-link dropdown-toggle active" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                EYEGLASSES
+              </span>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item "  href="./men.html">Men's Eyeglasses</a></li>
+                <li><a class="dropdown-item"  href="./women.html">Women's Eyeglasses</a></li>
               </ul>
-            </div>
-          </div>
-        </nav>
-      <!-- nav section end -->
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link link text-white active"  aria-current="page" href="#about">SUNGLASSES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white active" aria-current="page" href="#about">CONTACT LENSES</a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--*************************************
+    nav section end
+    ***************************************-->
+
+
+
+
+
      <!-- more about section end  -->
         <!-- --------
           Men's Eyeglasses start
@@ -53,7 +84,7 @@
         -->
 
         <!-- main mes'glasses sectton start -->
-        <div class="container">
+        <div class="container-fluid">
             <div class="mt-4">
               <h2>Men Eyeglasses</h2>
             </div>
@@ -72,1458 +103,341 @@
           </div>
           <!-- main men's glasses section ends  -->
              <section class="mt-5">
-              <div class="container">
-                <div class="row gy-3">
-                  <!-- card-1  -->
-                  <div class="col-12 col-md-2 col-lg-4">
-                   <div class="card" style="background-color: #f4f4f4;">
-                     <div class="text-center pt-4">
-                      <h6 style="color:#192c50">Most Populer</h6>
-                      <div class="card-body">
-                        <div id="slidersAll" id="carouselExampleLight" class="carousel carousel-dark slide m-auto" data-bs-ride="carousel">
-                          <div class="carousel-inner">
-                            <div class="carousel-item active" data-bs-interval="10000">
-                              <img src="images/slide1.webp" class="d-block w-100 " alt="...">
-                              <div class="d-none d-md-block pt-3">
-                                <h6>11 COLORS</h6>
-                              </div>
-                             
-                            </div>
-                            <div class="carousel-item" data-bs-interval="2000">
-                              <img src="images/slide2.webp" class="d-block w-100" alt="...">
-                              <div class=" d-none d-md-block pt-3">
-                                <h6>11 COLORS</h6>
-                              </div>
-                            </div>
-                            <div class="carousel-item">
-                              <img src="images/slide4.webp" class="d-block w-100" alt="...">
-                              <div class=" d-none d-md-block pt-3">
-                                <h6>11 COLORS</h6>
-                              </div>
-                            </div>
-                            <div class="carousel-item">
-                              <img src="images/slide5.webp" class="d-block w-100" alt="...">
-                              <div class=" d-none d-md-block pt-3">
-                                <h6>11 COLORS</h6>
-                              </div>
-                            </div>
-                            <div class="carousel-item">
-                              <img src="images/slide6.webp" class="d-block w-100" alt="...">
-                              <div class=" d-none d-md-block pt-3">
-                                <h6>11 COLORS</h6>
-                              </div>
-                            </div>
+              <div class="container-fluid">
+                <div class="row">
+
+
+
+                  <!-- ********* Slider 1 ********* -->
+                  <div class="col-4">
+                    <!-- carosel  -->
+                    <div id="carouselExampleDark" class="carousel men-glasses-carousel carousel-dark slide w-100" data-bs-ride="carousel" >
+                      <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                          <p class="m-0 text-center">Black</p>
+                          <img src="assets/images/slide1.webp" class="d-block w-100 " alt="...">
+                          <div class="d-none d-md-block mt-3">
                           </div>
-                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                          </button>
-                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                          </button>
-                         </div>
-                     </div>
-                    </div> 
-              <div class="card-footer d-flex justify-content-between">
-               <div class="p-0">
-                 <p>Ray-Ban</p>
-                 <p>RB5154 CLUBMASTER</p>
-                 <p>$179.00</p>
-               </div>
-               <div>
-                <i class="far fa-heart"></i>
-               </div>
-              </div>
-          </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                          <p class="m-0 text-center">Black</p>
+                          <img src="assets/images/slide2.webp" class="d-block w-100" alt="...">
+                          <div class=" d-none d-md-block mt-3">
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <p class="m-0 text-center">Black</p>
+                          <img src="assets/images/slide4.webp" class="d-block w-100" alt="...">
+                          <div class=" d-none d-md-block mt-3">
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <p class="m-0 text-center">Black</p>
+                          <img src="assets/images/slide5.webp" class="d-block w-100" alt="...">
+                          <div class=" d-none d-md-block mt-3">
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <p class="m-0 text-center">Black</p>
+                          <img src="assets/images/slide6.webp" class="d-block w-100" alt="...">
+                          <div class=" d-none d-md-block mt-3">
+                          </div>
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                      <div class="card-footer d-flex justify-content-between">
+                        <div class="p-0">
+                          <p>$190</p>
+                        </div>
+                        <div>
+                          <i class="far fa-heart"></i>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                   <!-- card-1  -->
-                   <div class="col-12 col-md-2 col-lg-4">
-                    <div class="card" style="background-color: #f4f4f4;">
-                      <div class="text-center pt-4">
-                       <h6 style="color:#192c50">Most Populer</h6>
-                       <div class="card-body">
-                         <div id="slidersAll" id="carouselExampleLight" class="carousel carousel-dark slide m-auto" data-bs-ride="carousel">
-                           <div class="carousel-inner">
-                             <div class="carousel-item active" data-bs-interval="10000">
-                               <img src="images/slide1.webp" class="d-block w-100 " alt="...">
-                               <div class="d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                              
-                             </div>
-                             <div class="carousel-item" data-bs-interval="2000">
-                               <img src="images/slide2.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide4.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide5.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide6.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                           </div>
-                           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                             <span class="visually-hidden">Previous</span>
-                           </button>
-                           <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                             <span class="visually-hidden">Next</span>
-                           </button>
+
+                  <!-- ********* Slider 2 ********* -->
+                  <div class="col-4">
+                    <!-- carosel  -->
+                    <div id="carouselExampleDark2" class="carousel men-glasses-carousel carousel-dark slide w-100" data-bs-ride="carousel" >
+                      <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                          <p class="m-0 text-center">Black</p>
+                          <img src="assets/images/slide1.webp" class="d-block w-100 " alt="...">
+                          <div class="d-none d-md-block mt-3">
                           </div>
-                      </div>
-                     </div> 
-               <div class="card-footer d-flex justify-content-between">
-                <div class="p-0">
-                  <p>Ray-Ban</p>
-                  <p>RB5154 CLUBMASTER</p>
-                  <p>$179.00</p>
-                </div>
-                <div>
-                 <i class="far fa-heart"></i>
-                </div>
-               </div>
-           </div>
-                   </div>
-                    <!-- card-1  -->
-                  <div class="col-12 col-md-2 col-lg-4">
-                    <div class="card" style="background-color: #f4f4f4;">
-                      <div class="text-center pt-4">
-                       <h6 style="color:#192c50">Most Populer</h6>
-                       <div class="card-body">
-                         <div id="slidersAll" id="carouselExampleLight" class="carousel carousel-dark slide m-auto" data-bs-ride="carousel">
-                           <div class="carousel-inner">
-                             <div class="carousel-item active" data-bs-interval="10000">
-                               <img src="images/slide1.webp" class="d-block w-100 " alt="...">
-                               <div class="d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                              
-                             </div>
-                             <div class="carousel-item" data-bs-interval="2000">
-                               <img src="images/slide2.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide4.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide5.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide6.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                           </div>
-                           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                             <span class="visually-hidden">Previous</span>
-                           </button>
-                           <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                             <span class="visually-hidden">Next</span>
-                           </button>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                          <p class="m-0 text-center">Black</p>
+                          <img src="assets/images/slide2.webp" class="d-block w-100" alt="...">
+                          <div class=" d-none d-md-block mt-3">
                           </div>
-                      </div>
-                     </div> 
-               <div class="card-footer d-flex justify-content-between">
-                <div class="p-0">
-                  <p>Ray-Ban</p>
-                  <p>RB5154 CLUBMASTER</p>
-                  <p>$179.00</p>
-                </div>
-                <div>
-                 <i class="far fa-heart"></i>
-                </div>
-               </div>
-           </div>
-                   </div>
-                    <!-- card-1  -->
-                  <div class="col-12 col-md-2 col-lg-4">
-                    <div class="card" style="background-color: #f4f4f4;">
-                      <div class="text-center pt-4">
-                       <h6 style="color:#192c50">Most Populer</h6>
-                       <div class="card-body">
-                         <div id="slidersAll" id="carouselExampleLight" class="carousel carousel-dark slide m-auto" data-bs-ride="carousel">
-                           <div class="carousel-inner">
-                             <div class="carousel-item active" data-bs-interval="10000">
-                               <img src="images/slide1.webp" class="d-block w-100 " alt="...">
-                               <div class="d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                              
-                             </div>
-                             <div class="carousel-item" data-bs-interval="2000">
-                               <img src="images/slide2.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide4.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide5.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide6.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                           </div>
-                           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                             <span class="visually-hidden">Previous</span>
-                           </button>
-                           <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                             <span class="visually-hidden">Next</span>
-                           </button>
+                        </div>
+                        <div class="carousel-item">
+                          <p class="m-0 text-center">Black</p>
+                          <img src="assets/images/slide4.webp" class="d-block w-100" alt="...">
+                          <div class=" d-none d-md-block mt-3">
                           </div>
-                      </div>
-                     </div> 
-               <div class="card-footer d-flex justify-content-between">
-                <div class="p-0">
-                  <p>Ray-Ban</p>
-                  <p>RB5154 CLUBMASTER</p>
-                  <p>$179.00</p>
-                </div>
-                <div>
-                 <i class="far fa-heart"></i>
-                </div>
-               </div>
-           </div>
-                   </div>
-                    <!-- card-1  -->
-                  <div class="col-12 col-md-2 col-lg-4">
-                    <div class="card" style="background-color: #f4f4f4;">
-                      <div class="text-center pt-4">
-                       <h6 style="color:#192c50">Most Populer</h6>
-                       <div class="card-body">
-                         <div id="slidersAll" id="carouselExampleLight" class="carousel carousel-dark slide m-auto" data-bs-ride="carousel">
-                           <div class="carousel-inner">
-                             <div class="carousel-item active" data-bs-interval="10000">
-                               <img src="images/slide1.webp" class="d-block w-100 " alt="...">
-                               <div class="d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                              
-                             </div>
-                             <div class="carousel-item" data-bs-interval="2000">
-                               <img src="images/slide2.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide4.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide5.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide6.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                           </div>
-                           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                             <span class="visually-hidden">Previous</span>
-                           </button>
-                           <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                             <span class="visually-hidden">Next</span>
-                           </button>
+                        </div>
+                        <div class="carousel-item">
+                          <p class="m-0 text-center">Black</p>
+                          <img src="assets/images/slide5.webp" class="d-block w-100" alt="...">
+                          <div class=" d-none d-md-block mt-3">
                           </div>
-                      </div>
-                     </div> 
-               <div class="card-footer d-flex justify-content-between">
-                <div class="p-0">
-                  <p>Ray-Ban</p>
-                  <p>RB5154 CLUBMASTER</p>
-                  <p>$179.00</p>
-                </div>
-                <div>
-                 <i class="far fa-heart"></i>
-                </div>
-               </div>
-           </div>
-                   </div>
-                    <!-- card-1  -->
-                  <div class="col-12 col-md-2 col-lg-4">
-                    <div class="card" style="background-color: #f4f4f4;">
-                      <div class="text-center pt-4">
-                       <h6 style="color:#192c50">Most Populer</h6>
-                       <div class="card-body">
-                         <div id="slidersAll" id="carouselExampleLight" class="carousel carousel-dark slide m-auto" data-bs-ride="carousel">
-                           <div class="carousel-inner">
-                             <div class="carousel-item active" data-bs-interval="10000">
-                               <img src="images/slide1.webp" class="d-block w-100 " alt="...">
-                               <div class="d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                              
-                             </div>
-                             <div class="carousel-item" data-bs-interval="2000">
-                               <img src="images/slide2.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide4.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide5.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide6.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                           </div>
-                           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                             <span class="visually-hidden">Previous</span>
-                           </button>
-                           <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                             <span class="visually-hidden">Next</span>
-                           </button>
+                        </div>
+                        <div class="carousel-item">
+                          <p class="m-0 text-center">Black</p>
+                          <img src="assets/images/slide6.webp" class="d-block w-100" alt="...">
+                          <div class=" d-none d-md-block mt-3">
                           </div>
+                        </div>
                       </div>
-                     </div> 
-               <div class="card-footer d-flex justify-content-between">
-                <div class="p-0">
-                  <p>Ray-Ban</p>
-                  <p>RB5154 CLUBMASTER</p>
-                  <p>$179.00</p>
-                </div>
-                <div>
-                 <i class="far fa-heart"></i>
-                </div>
-               </div>
-           </div>
-                   </div>
-                    <!-- card-1  -->
-                  <div class="col-12 col-md-2 col-lg-4">
-                    <div class="card" style="background-color: #f4f4f4;">
-                      <div class="text-center pt-4">
-                       <h6 style="color:#192c50">Most Populer</h6>
-                       <div class="card-body">
-                         <div id="slidersAll" id="carouselExampleLight" class="carousel carousel-dark slide m-auto" data-bs-ride="carousel">
-                           <div class="carousel-inner">
-                             <div class="carousel-item active" data-bs-interval="10000">
-                               <img src="images/slide1.webp" class="d-block w-100 " alt="...">
-                               <div class="d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                              
-                             </div>
-                             <div class="carousel-item" data-bs-interval="2000">
-                               <img src="images/slide2.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide4.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide5.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide6.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                           </div>
-                           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                             <span class="visually-hidden">Previous</span>
-                           </button>
-                           <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                             <span class="visually-hidden">Next</span>
-                           </button>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark2" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark2" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                      <div class="card-footer d-flex justify-content-between">
+                        <div class="p-0">
+                          <p>$190</p>
+                        </div>
+                        <div>
+                          <i class="far fa-heart"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- ********* Slider 3 ********* -->
+                  <div class="col-4">
+                    <!-- carosel  -->
+                    <div id="carouselExampleDark3" class="carousel men-glasses-carousel carousel-dark slide w-100" data-bs-ride="carousel" >
+                      <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                          <p class="m-0 text-center">Black</p>
+                          <img src="assets/images/slide1.webp" class="d-block w-100 " alt="...">
+                          <div class="d-none d-md-block mt-3">
                           </div>
-                      </div>
-                     </div> 
-               <div class="card-footer d-flex justify-content-between">
-                <div class="p-0">
-                  <p>Ray-Ban</p>
-                  <p>RB5154 CLUBMASTER</p>
-                  <p>$179.00</p>
-                </div>
-                <div>
-                 <i class="far fa-heart"></i>
-                </div>
-               </div>
-           </div>
-                   </div>
-                    <!-- card-1  -->
-                  <div class="col-12 col-md-2 col-lg-4">
-                    <div class="card" style="background-color: #f4f4f4;">
-                      <div class="text-center pt-4">
-                       <h6 style="color:#192c50">Most Populer</h6>
-                       <div class="card-body">
-                         <div id="slidersAll" id="carouselExampleLight" class="carousel carousel-dark slide m-auto" data-bs-ride="carousel">
-                           <div class="carousel-inner">
-                             <div class="carousel-item active" data-bs-interval="10000">
-                               <img src="images/slide1.webp" class="d-block w-100 " alt="...">
-                               <div class="d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                              
-                             </div>
-                             <div class="carousel-item" data-bs-interval="2000">
-                               <img src="images/slide2.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide4.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide5.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide6.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                           </div>
-                           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                             <span class="visually-hidden">Previous</span>
-                           </button>
-                           <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                             <span class="visually-hidden">Next</span>
-                           </button>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                          <p class="m-0 text-center">Black</p>
+                          <img src="assets/images/slide2.webp" class="d-block w-100" alt="...">
+                          <div class=" d-none d-md-block mt-3">
                           </div>
-                      </div>
-                     </div> 
-               <div class="card-footer d-flex justify-content-between">
-                <div class="p-0">
-                  <p>Ray-Ban</p>
-                  <p>RB5154 CLUBMASTER</p>
-                  <p>$179.00</p>
-                </div>
-                <div>
-                 <i class="far fa-heart"></i>
-                </div>
-               </div>
-           </div>
-                   </div>
-                    <!-- card-1  -->
-                  <div class="col-12 col-md-2 col-lg-4">
-                    <div class="card" style="background-color: #f4f4f4;">
-                      <div class="text-center pt-4">
-                       <h6 style="color:#192c50">Most Populer</h6>
-                       <div class="card-body">
-                         <div id="slidersAll" id="carouselExampleLight" class="carousel carousel-dark slide m-auto" data-bs-ride="carousel">
-                           <div class="carousel-inner">
-                             <div class="carousel-item active" data-bs-interval="10000">
-                               <img src="images/slide1.webp" class="d-block w-100 " alt="...">
-                               <div class="d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                              
-                             </div>
-                             <div class="carousel-item" data-bs-interval="2000">
-                               <img src="images/slide2.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide4.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide5.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide6.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                           </div>
-                           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                             <span class="visually-hidden">Previous</span>
-                           </button>
-                           <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                             <span class="visually-hidden">Next</span>
-                           </button>
+                        </div>
+                        <div class="carousel-item">
+                          <p class="m-0 text-center">Black</p>
+                          <img src="assets/images/slide4.webp" class="d-block w-100" alt="...">
+                          <div class=" d-none d-md-block mt-3">
                           </div>
-                      </div>
-                     </div> 
-               <div class="card-footer d-flex justify-content-between">
-                <div class="p-0">
-                  <p>Ray-Ban</p>
-                  <p>RB5154 CLUBMASTER</p>
-                  <p>$179.00</p>
-                </div>
-                <div>
-                 <i class="far fa-heart"></i>
-                </div>
-               </div>
-           </div>
-                   </div>
-                    <!-- card-1  -->
-                  <div class="col-12 col-md-2 col-lg-4">
-                    <div class="card" style="background-color: #f4f4f4;">
-                      <div class="text-center pt-4">
-                       <h6 style="color:#192c50">Most Populer</h6>
-                       <div class="card-body">
-                         <div id="slidersAll" id="carouselExampleLight" class="carousel carousel-dark slide m-auto" data-bs-ride="carousel">
-                           <div class="carousel-inner">
-                             <div class="carousel-item active" data-bs-interval="10000">
-                               <img src="images/slide1.webp" class="d-block w-100 " alt="...">
-                               <div class="d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                              
-                             </div>
-                             <div class="carousel-item" data-bs-interval="2000">
-                               <img src="images/slide2.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide4.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide5.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide6.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                           </div>
-                           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                             <span class="visually-hidden">Previous</span>
-                           </button>
-                           <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                             <span class="visually-hidden">Next</span>
-                           </button>
+                        </div>
+                        <div class="carousel-item">
+                          <p class="m-0 text-center">Black</p>
+                          <img src="assets/images/slide5.webp" class="d-block w-100" alt="...">
+                          <div class=" d-none d-md-block mt-3">
                           </div>
-                      </div>
-                     </div> 
-               <div class="card-footer d-flex justify-content-between">
-                <div class="p-0">
-                  <p>Ray-Ban</p>
-                  <p>RB5154 CLUBMASTER</p>
-                  <p>$179.00</p>
-                </div>
-                <div>
-                 <i class="far fa-heart"></i>
-                </div>
-               </div>
-           </div>
-                   </div>
-                    <!-- card-1  -->
-                  <div class="col-12 col-md-2 col-lg-4">
-                    <div class="card" style="background-color: #f4f4f4;">
-                      <div class="text-center pt-4">
-                       <h6 style="color:#192c50">Most Populer</h6>
-                       <div class="card-body">
-                         <div id="slidersAll" id="carouselExampleLight" class="carousel carousel-dark slide m-auto" data-bs-ride="carousel">
-                           <div class="carousel-inner">
-                             <div class="carousel-item active" data-bs-interval="10000">
-                               <img src="images/slide1.webp" class="d-block w-100 " alt="...">
-                               <div class="d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                              
-                             </div>
-                             <div class="carousel-item" data-bs-interval="2000">
-                               <img src="images/slide2.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide4.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide5.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide6.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                           </div>
-                           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                             <span class="visually-hidden">Previous</span>
-                           </button>
-                           <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                             <span class="visually-hidden">Next</span>
-                           </button>
+                        </div>
+                        <div class="carousel-item">
+                          <p class="m-0 text-center">Black</p>
+                          <img src="assets/images/slide6.webp" class="d-block w-100" alt="...">
+                          <div class=" d-none d-md-block mt-3">
                           </div>
+                        </div>
                       </div>
-                     </div> 
-               <div class="card-footer d-flex justify-content-between">
-                <div class="p-0">
-                  <p>Ray-Ban</p>
-                  <p>RB5154 CLUBMASTER</p>
-                  <p>$179.00</p>
-                </div>
-                <div>
-                 <i class="far fa-heart"></i>
-                </div>
-               </div>
-           </div>
-                   </div>
-                    <!-- card-1  -->
-                  <div class="col-12 col-md-2 col-lg-4">
-                    <div class="card" style="background-color: #f4f4f4;">
-                      <div class="text-center pt-4">
-                       <h6 style="color:#192c50">Most Populer</h6>
-                       <div class="card-body">
-                         <div id="slidersAll" id="carouselExampleLight" class="carousel carousel-dark slide m-auto" data-bs-ride="carousel">
-                           <div class="carousel-inner">
-                             <div class="carousel-item active" data-bs-interval="10000">
-                               <img src="images/slide1.webp" class="d-block w-100 " alt="...">
-                               <div class="d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                              
-                             </div>
-                             <div class="carousel-item" data-bs-interval="2000">
-                               <img src="images/slide2.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide4.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide5.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide6.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                           </div>
-                           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                             <span class="visually-hidden">Previous</span>
-                           </button>
-                           <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                             <span class="visually-hidden">Next</span>
-                           </button>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark3" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark3" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                      <div class="card-footer d-flex justify-content-between">
+                        <div class="p-0">
+                          <p>$190</p>
+                        </div>
+                        <div>
+                          <i class="far fa-heart"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- ********* Slider 4 ********* -->
+                  <div class="col-4">
+                    <!-- carosel  -->
+                    <div id="carouselExampleDark4" class="carousel men-glasses-carousel carousel-dark slide w-100" data-bs-ride="carousel" >
+                      <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                          <p class="m-0 text-center">Black</p>
+                          <img src="assets/images/slide1.webp" class="d-block w-100 " alt="...">
+                          <div class="d-none d-md-block mt-3">
                           </div>
-                      </div>
-                     </div> 
-               <div class="card-footer d-flex justify-content-between">
-                <div class="p-0">
-                  <p>Ray-Ban</p>
-                  <p>RB5154 CLUBMASTER</p>
-                  <p>$179.00</p>
-                </div>
-                <div>
-                 <i class="far fa-heart"></i>
-                </div>
-               </div>
-           </div>
-                   </div>
-                    <!-- card-1  -->
-                  <div class="col-12 col-md-2 col-lg-4">
-                    <div class="card" style="background-color: #f4f4f4;">
-                      <div class="text-center pt-4">
-                       <h6 style="color:#192c50">Most Populer</h6>
-                       <div class="card-body">
-                         <div id="slidersAll" id="carouselExampleLight" class="carousel carousel-dark slide m-auto" data-bs-ride="carousel">
-                           <div class="carousel-inner">
-                             <div class="carousel-item active" data-bs-interval="10000">
-                               <img src="images/slide1.webp" class="d-block w-100 " alt="...">
-                               <div class="d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                              
-                             </div>
-                             <div class="carousel-item" data-bs-interval="2000">
-                               <img src="images/slide2.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide4.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide5.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide6.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                           </div>
-                           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                             <span class="visually-hidden">Previous</span>
-                           </button>
-                           <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                             <span class="visually-hidden">Next</span>
-                           </button>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                          <p class="m-0 text-center">Black</p>
+                          <img src="assets/images/slide2.webp" class="d-block w-100" alt="...">
+                          <div class=" d-none d-md-block mt-3">
                           </div>
-                      </div>
-                     </div> 
-               <div class="card-footer d-flex justify-content-between">
-                <div class="p-0">
-                  <p>Ray-Ban</p>
-                  <p>RB5154 CLUBMASTER</p>
-                  <p>$179.00</p>
-                </div>
-                <div>
-                 <i class="far fa-heart"></i>
-                </div>
-               </div>
-           </div>
-                   </div>
-                    <!-- card-1  -->
-                  <div class="col-12 col-md-2 col-lg-4">
-                    <div class="card" style="background-color: #f4f4f4;">
-                      <div class="text-center pt-4">
-                       <h6 style="color:#192c50">Most Populer</h6>
-                       <div class="card-body">
-                         <div id="slidersAll" id="carouselExampleLight" class="carousel carousel-dark slide m-auto" data-bs-ride="carousel">
-                           <div class="carousel-inner">
-                             <div class="carousel-item active" data-bs-interval="10000">
-                               <img src="images/slide1.webp" class="d-block w-100 " alt="...">
-                               <div class="d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                              
-                             </div>
-                             <div class="carousel-item" data-bs-interval="2000">
-                               <img src="images/slide2.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide4.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide5.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide6.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                           </div>
-                           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                             <span class="visually-hidden">Previous</span>
-                           </button>
-                           <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                             <span class="visually-hidden">Next</span>
-                           </button>
+                        </div>
+                        <div class="carousel-item">
+                          <p class="m-0 text-center">Black</p>
+                          <img src="assets/images/slide4.webp" class="d-block w-100" alt="...">
+                          <div class=" d-none d-md-block mt-3">
                           </div>
-                      </div>
-                     </div> 
-               <div class="card-footer d-flex justify-content-between">
-                <div class="p-0">
-                  <p>Ray-Ban</p>
-                  <p>RB5154 CLUBMASTER</p>
-                  <p>$179.00</p>
-                </div>
-                <div>
-                 <i class="far fa-heart"></i>
-                </div>
-               </div>
-           </div>
-                   </div>
-                    <!-- card-1  -->
-                  <div class="col-12 col-md-2 col-lg-4">
-                    <div class="card" style="background-color: #f4f4f4;">
-                      <div class="text-center pt-4">
-                       <h6 style="color:#192c50">Most Populer</h6>
-                       <div class="card-body">
-                         <div id="slidersAll" id="carouselExampleLight" class="carousel carousel-dark slide m-auto" data-bs-ride="carousel">
-                           <div class="carousel-inner">
-                             <div class="carousel-item active" data-bs-interval="10000">
-                               <img src="images/slide1.webp" class="d-block w-100 " alt="...">
-                               <div class="d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                              
-                             </div>
-                             <div class="carousel-item" data-bs-interval="2000">
-                               <img src="images/slide2.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide4.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide5.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide6.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                           </div>
-                           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                             <span class="visually-hidden">Previous</span>
-                           </button>
-                           <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                             <span class="visually-hidden">Next</span>
-                           </button>
+                        </div>
+                        <div class="carousel-item">
+                          <p class="m-0 text-center">Black</p>
+                          <img src="assets/images/slide5.webp" class="d-block w-100" alt="...">
+                          <div class=" d-none d-md-block mt-3">
                           </div>
-                      </div>
-                     </div> 
-               <div class="card-footer d-flex justify-content-between">
-                <div class="p-0">
-                  <p>Ray-Ban</p>
-                  <p>RB5154 CLUBMASTER</p>
-                  <p>$179.00</p>
-                </div>
-                <div>
-                 <i class="far fa-heart"></i>
-                </div>
-               </div>
-           </div>
-                   </div>
-                    <!-- card-1  -->
-                  <div class="col-12 col-md-2 col-lg-4">
-                    <div class="card" style="background-color: #f4f4f4;">
-                      <div class="text-center pt-4">
-                       <h6 style="color:#192c50">Most Populer</h6>
-                       <div class="card-body">
-                         <div id="slidersAll" id="carouselExampleLight" class="carousel carousel-dark slide m-auto" data-bs-ride="carousel">
-                           <div class="carousel-inner">
-                             <div class="carousel-item active" data-bs-interval="10000">
-                               <img src="images/slide1.webp" class="d-block w-100 " alt="...">
-                               <div class="d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                              
-                             </div>
-                             <div class="carousel-item" data-bs-interval="2000">
-                               <img src="images/slide2.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide4.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide5.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide6.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                           </div>
-                           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                             <span class="visually-hidden">Previous</span>
-                           </button>
-                           <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                             <span class="visually-hidden">Next</span>
-                           </button>
+                        </div>
+                        <div class="carousel-item">
+                          <p class="m-0 text-center">Black</p>
+                          <img src="assets/images/slide6.webp" class="d-block w-100" alt="...">
+                          <div class=" d-none d-md-block mt-3">
                           </div>
+                        </div>
                       </div>
-                     </div> 
-               <div class="card-footer d-flex justify-content-between">
-                <div class="p-0">
-                  <p>Ray-Ban</p>
-                  <p>RB5154 CLUBMASTER</p>
-                  <p>$179.00</p>
-                </div>
-                <div>
-                 <i class="far fa-heart"></i>
-                </div>
-               </div>
-           </div>
-                   </div>
-                    <!-- card-1  -->
-                  <div class="col-12 col-md-2 col-lg-4">
-                    <div class="card" style="background-color: #f4f4f4;">
-                      <div class="text-center pt-4">
-                       <h6 style="color:#192c50">Most Populer</h6>
-                       <div class="card-body">
-                         <div id="slidersAll" id="carouselExampleLight" class="carousel carousel-dark slide m-auto" data-bs-ride="carousel">
-                           <div class="carousel-inner">
-                             <div class="carousel-item active" data-bs-interval="10000">
-                               <img src="images/slide1.webp" class="d-block w-100 " alt="...">
-                               <div class="d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                              
-                             </div>
-                             <div class="carousel-item" data-bs-interval="2000">
-                               <img src="images/slide2.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide4.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide5.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide6.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                           </div>
-                           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                             <span class="visually-hidden">Previous</span>
-                           </button>
-                           <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                             <span class="visually-hidden">Next</span>
-                           </button>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark4" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark4" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                      <div class="card-footer d-flex justify-content-between">
+                        <div class="p-0">
+                          <p>$190</p>
+                        </div>
+                        <div>
+                          <i class="far fa-heart"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- ********* Slider 5 ********* -->
+                  <div class="col-4">
+                    <!-- carosel  -->
+                    <div id="carouselExampleDark5" class="carousel men-glasses-carousel carousel-dark slide w-100" data-bs-ride="carousel" >
+                      <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                          <p class="m-0 text-center">Black</p>
+                          <img src="assets/images/slide1.webp" class="d-block w-100 " alt="...">
+                          <div class="d-none d-md-block mt-3">
                           </div>
-                      </div>
-                     </div> 
-               <div class="card-footer d-flex justify-content-between">
-                <div class="p-0">
-                  <p>Ray-Ban</p>
-                  <p>RB5154 CLUBMASTER</p>
-                  <p>$179.00</p>
-                </div>
-                <div>
-                 <i class="far fa-heart"></i>
-                </div>
-               </div>
-           </div>
-                   </div>
-                    <!-- card-1  -->
-                  <div class="col-12 col-md-2 col-lg-4">
-                    <div class="card" style="background-color: #f4f4f4;">
-                      <div class="text-center pt-4">
-                       <h6 style="color:#192c50">Most Populer</h6>
-                       <div class="card-body">
-                         <div id="slidersAll" id="carouselExampleLight" class="carousel carousel-dark slide m-auto" data-bs-ride="carousel">
-                           <div class="carousel-inner">
-                             <div class="carousel-item active" data-bs-interval="10000">
-                               <img src="images/slide1.webp" class="d-block w-100 " alt="...">
-                               <div class="d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                              
-                             </div>
-                             <div class="carousel-item" data-bs-interval="2000">
-                               <img src="images/slide2.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide4.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide5.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide6.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                           </div>
-                           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                             <span class="visually-hidden">Previous</span>
-                           </button>
-                           <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                             <span class="visually-hidden">Next</span>
-                           </button>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                          <p class="m-0 text-center">Black</p>
+                          <img src="assets/images/slide2.webp" class="d-block w-100" alt="...">
+                          <div class=" d-none d-md-block mt-3">
                           </div>
-                      </div>
-                     </div> 
-               <div class="card-footer d-flex justify-content-between">
-                <div class="p-0">
-                  <p>Ray-Ban</p>
-                  <p>RB5154 CLUBMASTER</p>
-                  <p>$179.00</p>
-                </div>
-                <div>
-                 <i class="far fa-heart"></i>
-                </div>
-               </div>
-           </div>
-                   </div>
-                    <!-- card-1  -->
-                  <div class="col-12 col-md-2 col-lg-4">
-                    <div class="card" style="background-color: #f4f4f4;">
-                      <div class="text-center pt-4">
-                       <h6 style="color:#192c50">Most Populer</h6>
-                       <div class="card-body">
-                         <div id="slidersAll" id="carouselExampleLight" class="carousel carousel-dark slide m-auto" data-bs-ride="carousel">
-                           <div class="carousel-inner">
-                             <div class="carousel-item active" data-bs-interval="10000">
-                               <img src="images/slide1.webp" class="d-block w-100 " alt="...">
-                               <div class="d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                              
-                             </div>
-                             <div class="carousel-item" data-bs-interval="2000">
-                               <img src="images/slide2.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide4.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide5.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide6.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                           </div>
-                           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                             <span class="visually-hidden">Previous</span>
-                           </button>
-                           <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                             <span class="visually-hidden">Next</span>
-                           </button>
+                        </div>
+                        <div class="carousel-item">
+                          <p class="m-0 text-center">Black</p>
+                          <img src="assets/images/slide4.webp" class="d-block w-100" alt="...">
+                          <div class=" d-none d-md-block mt-3">
                           </div>
-                      </div>
-                     </div> 
-               <div class="card-footer d-flex justify-content-between">
-                <div class="p-0">
-                  <p>Ray-Ban</p>
-                  <p>RB5154 CLUBMASTER</p>
-                  <p>$179.00</p>
-                </div>
-                <div>
-                 <i class="far fa-heart"></i>
-                </div>
-               </div>
-           </div>
-                   </div>
-                    <!-- card-1  -->
-                  <div class="col-12 col-md-2 col-lg-4">
-                    <div class="card" style="background-color: #f4f4f4;">
-                      <div class="text-center pt-4">
-                       <h6 style="color:#192c50">Most Populer</h6>
-                       <div class="card-body">
-                         <div id="slidersAll" id="carouselExampleLight" class="carousel carousel-dark slide m-auto" data-bs-ride="carousel">
-                           <div class="carousel-inner">
-                             <div class="carousel-item active" data-bs-interval="10000">
-                               <img src="images/slide1.webp" class="d-block w-100 " alt="...">
-                               <div class="d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                              
-                             </div>
-                             <div class="carousel-item" data-bs-interval="2000">
-                               <img src="images/slide2.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide4.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide5.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide6.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                           </div>
-                           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                             <span class="visually-hidden">Previous</span>
-                           </button>
-                           <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                             <span class="visually-hidden">Next</span>
-                           </button>
+                        </div>
+                        <div class="carousel-item">
+                          <p class="m-0 text-center">Black</p>
+                          <img src="assets/images/slide5.webp" class="d-block w-100" alt="...">
+                          <div class=" d-none d-md-block mt-3">
                           </div>
-                      </div>
-                     </div> 
-               <div class="card-footer d-flex justify-content-between">
-                <div class="p-0">
-                  <p>Ray-Ban</p>
-                  <p>RB5154 CLUBMASTER</p>
-                  <p>$179.00</p>
-                </div>
-                <div>
-                 <i class="far fa-heart"></i>
-                </div>
-               </div>
-           </div>
-                   </div>
-                    <!-- card-1  -->
-                  <div class="col-12 col-md-2 col-lg-4">
-                    <div class="card" style="background-color: #f4f4f4;">
-                      <div class="text-center pt-4">
-                       <h6 style="color:#192c50">Most Populer</h6>
-                       <div class="card-body">
-                         <div id="slidersAll" id="carouselExampleLight" class="carousel carousel-dark slide m-auto" data-bs-ride="carousel">
-                           <div class="carousel-inner">
-                             <div class="carousel-item active" data-bs-interval="10000">
-                               <img src="images/slide1.webp" class="d-block w-100 " alt="...">
-                               <div class="d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                              
-                             </div>
-                             <div class="carousel-item" data-bs-interval="2000">
-                               <img src="images/slide2.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide4.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide5.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide6.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                           </div>
-                           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                             <span class="visually-hidden">Previous</span>
-                           </button>
-                           <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                             <span class="visually-hidden">Next</span>
-                           </button>
+                        </div>
+                        <div class="carousel-item">
+                          <p class="m-0 text-center">Black</p>
+                          <img src="assets/images/slide6.webp" class="d-block w-100" alt="...">
+                          <div class=" d-none d-md-block mt-3">
                           </div>
+                        </div>
                       </div>
-                     </div> 
-               <div class="card-footer d-flex justify-content-between">
-                <div class="p-0">
-                  <p>Ray-Ban</p>
-                  <p>RB5154 CLUBMASTER</p>
-                  <p>$179.00</p>
-                </div>
-                <div>
-                 <i class="far fa-heart"></i>
-                </div>
-               </div>
-           </div>
-                   </div>
-                    <!-- card-1  -->
-                  <div class="col-12 col-md-2 col-lg-4">
-                    <div class="card" style="background-color: #f4f4f4;">
-                      <div class="text-center pt-4">
-                       <h6 style="color:#192c50">Most Populer</h6>
-                       <div class="card-body">
-                         <div id="slidersAll" id="carouselExampleLight" class="carousel carousel-dark slide m-auto" data-bs-ride="carousel">
-                           <div class="carousel-inner">
-                             <div class="carousel-item active" data-bs-interval="10000">
-                               <img src="images/slide1.webp" class="d-block w-100 " alt="...">
-                               <div class="d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                              
-                             </div>
-                             <div class="carousel-item" data-bs-interval="2000">
-                               <img src="images/slide2.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide4.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide5.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide6.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                           </div>
-                           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                             <span class="visually-hidden">Previous</span>
-                           </button>
-                           <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                             <span class="visually-hidden">Next</span>
-                           </button>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark5" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark5" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                      <div class="card-footer d-flex justify-content-between">
+                        <div class="p-0">
+                          <p>$190</p>
+                        </div>
+                        <div>
+                          <i class="far fa-heart"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- ********* Slider 6 ********* -->
+                  <div class="col-4">
+                    <!-- carosel  -->
+                    <div id="carouselExampleDark6" class="carousel men-glasses-carousel carousel-dark slide w-100" data-bs-ride="carousel" >
+                      <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                          <p class="m-0 text-center">Black</p>
+                          <img src="assets/images/slide1.webp" class="d-block w-100 " alt="...">
+                          <div class="d-none d-md-block mt-3">
                           </div>
-                      </div>
-                     </div> 
-               <div class="card-footer d-flex justify-content-between">
-                <div class="p-0">
-                  <p>Ray-Ban</p>
-                  <p>RB5154 CLUBMASTER</p>
-                  <p>$179.00</p>
-                </div>
-                <div>
-                 <i class="far fa-heart"></i>
-                </div>
-               </div>
-           </div>
-                   </div>
-                    <!-- card-1  -->
-                  <div class="col-12 col-md-2 col-lg-4">
-                    <div class="card" style="background-color: #f4f4f4;">
-                      <div class="text-center pt-4">
-                       <h6 style="color:#192c50">Most Populer</h6>
-                       <div class="card-body">
-                         <div id="slidersAll" id="carouselExampleLight" class="carousel carousel-dark slide m-auto" data-bs-ride="carousel">
-                           <div class="carousel-inner">
-                             <div class="carousel-item active" data-bs-interval="10000">
-                               <img src="images/slide1.webp" class="d-block w-100 " alt="...">
-                               <div class="d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                              
-                             </div>
-                             <div class="carousel-item" data-bs-interval="2000">
-                               <img src="images/slide2.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide4.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide5.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                             <div class="carousel-item">
-                               <img src="images/slide6.webp" class="d-block w-100" alt="...">
-                               <div class=" d-none d-md-block pt-3">
-                                 <h6>11 COLORS</h6>
-                               </div>
-                             </div>
-                           </div>
-                           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                             <span class="visually-hidden">Previous</span>
-                           </button>
-                           <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                             <span class="visually-hidden">Next</span>
-                           </button>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                          <p class="m-0 text-center">Black</p>
+                          <img src="assets/images/slide2.webp" class="d-block w-100" alt="...">
+                          <div class=" d-none d-md-block mt-3">
                           </div>
+                        </div>
+                        <div class="carousel-item">
+                          <p class="m-0 text-center">Black</p>
+                          <img src="assets/images/slide4.webp" class="d-block w-100" alt="...">
+                          <div class=" d-none d-md-block mt-3">
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <p class="m-0 text-center">Black</p>
+                          <img src="assets/images/slide5.webp" class="d-block w-100" alt="...">
+                          <div class=" d-none d-md-block mt-3">
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <p class="m-0 text-center">Black</p>
+                          <img src="assets/images/slide6.webp" class="d-block w-100" alt="...">
+                          <div class=" d-none d-md-block mt-3">
+                          </div>
+                        </div>
                       </div>
-                     </div> 
-               <div class="card-footer d-flex justify-content-between">
-                <div class="p-0">
-                  <p>Ray-Ban</p>
-                  <p>RB5154 CLUBMASTER</p>
-                  <p>$179.00</p>
-                </div>
-                <div>
-                 <i class="far fa-heart"></i>
-                </div>
-               </div>
-           </div>
-                   </div> 
-           </div> 
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark6" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark6" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                      <div class="card-footer d-flex justify-content-between">
+                        <div class="p-0">
+                          <p>$190</p>
+                        </div>
+                        <div>
+                          <i class="far fa-heart"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div> 
               </div>  
              </section>
              <!-- men's pagination section start  -->
@@ -1666,6 +580,20 @@
  
      </Footer>
      <!-- Footer section ends  -->
-    
+
+
+
+     
+    <!-- jqurey  -->
+    <script type="text/javascript" src="assets/js/Jqurey.js"></script>
+    <!-- lightslider.js  -->
+    <script type="text/javascript" src="assets/js/lightslider.js"></script>
+
+
+    <!-- Bootstrap bundle link    -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- javascript file link  -->
+    <script type="text/javascript" src="assets/js/script.js"></script>
+      
 </body>
 </html>

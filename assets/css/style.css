@@ -249,7 +249,6 @@ Navbar css end
 	letter-spacing: 0.5px;
 	text-decoration: none;
 }
-
 .slider{
 	width: 100%;
 	height: 100vh;
@@ -260,18 +259,7 @@ Navbar css end
 }
 #btn-mid a{
 	text-align: center;
-
 }
-/* #btn-mid a:hover{
-	color: black;
-	font-weight: bold;
-} */
-
-/* #btn-view a:hover{
-	color: black;
-	font-weight: bold;
-
-} */
 /*****************************************
  Best seller style end 
  *****************************************/
@@ -280,19 +268,18 @@ Navbar css end
 
 
 
+
+
+
 /*****************************************
  vision style start 
  *****************************************/
-
 #vision{
 	background: linear-gradient(156.65deg, #92A3BB 0.61%, #BDC7D5 36.45%, #C6D2E2 61.16%, #7289AB 101.84%) 
 }
-
 #carouselExampleDark{
 	width: 50%;
-
 }
-
 /* more about style  */
 #more-about{
 	background-image: url('../images/sean-pollock-PhYq704ffdA-unsplash.jpg');
@@ -328,6 +315,29 @@ Navbar css end
  *****************************************/
 
 
+
+
+
+
+
+
+
+/*****************************************
+ Men's glasses page style start 
+ *****************************************/
+.men-glasses-carousel {
+	margin: 0px 5px;
+	width: 100%;
+	background-color: #eeeeee;
+	margin-bottom: 24px;
+	padding-top: 20px;
+}
+
+
+
+/*****************************************
+ Men's glasses page style start 
+ *****************************************/
 
 
 /* mobail screen  */
