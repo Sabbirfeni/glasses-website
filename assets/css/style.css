@@ -325,10 +325,22 @@ Navbar css end
 /*****************************************
  Men's glasses page style start 
  *****************************************/
+
+ .carousel-item {
+	 height: 250px;
+	 text-align: center;
+	 /* display: flex;
+	 align-items: center;
+	 justify-content:center; */
+ }
+ .carousel-item img {
+	 width: 100px;
+	 padding-top: 40px;
+ }
 .men-glasses-carousel {
 	margin: 0px 5px;
 	width: 100%;
-	background-color: #eeeeee;
+	background-color: #ffffff;
 	margin-bottom: 24px;
 	padding-top: 20px;
 }
