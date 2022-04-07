@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LensCrafters</title>
+
+   
+    <!-- Bootstrap cdn Link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <!--stylesheet------------->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <!-- link lightslider  -->
+    <link rel="stylesheet" type="text/css" href="assets/css/lightslider.css">
+
+    <!-- fontawsome link  -->
+    <script src="https://kit.fontawesome.com/0f5f4922e8.js" crossorigin="anonymous"></script>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
+</head>
+<body>
+
+
+
+    <!--*************************************
+    nav section start
+    ***************************************-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+          <a class="navbar-brand text-white" href="index.html">
+            <!-- <img src="" alt="" width="40" height="40" class="d-inline-block align-text-center"> -->
+           <h2>LensCrafters</h2></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-lg-0">
+              <li class="nav-item dropdown-container d-flex align-items-center justify-content-center">
+                <div class="dropdown">
+                  <button class="dropbtn">EYE GLASSES</button>
+                  <div class="dropdown-content">
+                    <a href="men.html"><img style="width: 30px; height: 30px; border-radius: 50%;" src="assets/images/man.png" alt=""> Men's Glasses</a>
+                    <a href="women.html"><img style="width: 30px; height: 30px; border-radius: 50%;" src="assets/images/woman.png" alt=""> Women's Glasses</a>
+                  </div>
+                </div>
+              </li>
+              <!-- <li class="nav-item dropdown">
+                <span class="nav-link dropdown-toggle active" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  EYEGLASSES
+                </span>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item "  href="./men.html">Men's Eyeglasses</a></li>
+                  <li><a class="dropdown-item"  href="./women.html">Women's Eyeglasses</a></li>
+                </ul>
+              </li> -->
+              <li class="nav-item">
+                <a class="nav-link link text-white active"  aria-current="page" href="#about">SUNGLASSES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white active" aria-current="page" href="#about">CONTACT LENSES</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <!--*************************************
+    nav section end
+    ***************************************-->
+
+  
+
+
+    <!--*************************************
+    Form section start
+    ***************************************-->
+    <div class="form-container d-flex align-items-center justify-content-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="mb-5 text-center">Enter your prescription</h1>
+                    <form class="row g-3">
+                        <p for="" class="m-0">Right Eye - OD</p>
+                        <div class="col-md-4 mb-4">
+                            <label for="inputEmail4" class="form-label">SPH</label>
+                            <select id="inputState" class="form-select">
+                                <option>-2.00</option>
+                                <option>-1.75</option>
+                                <option>-1.50</option>
+                                <option>-1.25</option>
+                                <option>-1.00</option>
+                                <option>-0.75</option>
+                                <option>-0.50</option>
+                                <option>-0.25</option>
+                                <option selected>0.00</option>
+                                <option>+0.25</option>
+                                <option>+0.50</option>
+                                <option>+0.75</option>
+                                <option>+1.00</option>
+                                <option>+1.25</option>
+                                <option>+1.50</option>
+                                <option>+1.75</option>
+                                <option>+2.00</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <label for="inputPassword4" class="form-label">CYL</label>
+                            <select id="inputState" class="form-select">
+                                <option>-2.00</option>
+                                <option>-1.75</option>
+                                <option>-1.50</option>
+                                <option>-1.25</option>
+                                <option>-1.00</option>
+                                <option>-0.75</option>
+                                <option>-0.50</option>
+                                <option>-0.25</option>
+                                <option selected>0.00</option>
+                                <option>+0.25</option>
+                                <option>+0.50</option>
+                                <option>+0.75</option>
+                                <option>+1.00</option>
+                                <option>+1.25</option>
+                                <option>+1.50</option>
+                                <option>+1.75</option>
+                                <option>+2.00</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <label for="inputPassword4" class="form-label">Axis</label>
+                            <select id="inputState" class="form-select">
+                                <option selected>0</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                                <option>11</option>
+                                <option>12</option>
+                                <option>13</option>
+                                <option>14</option>
+                                <option>15</option>
+                                <option>16</option>
+                                <option>17</option>
+                                <option>18</option>
+                                <option>19</option>
+                                <option>20</option>
+                                <option>21</option>
+                                <option>22</option>
+                                <option>23</option>
+                                <option>24</option>
+                                <option>25</option>
+                                <option>26</option>
+                                
+                            </select>
+                        </div>
+
+
+
+                        <p for="" class="m-0">Left Eye - OS</p>
+                        <div class="col-md-4 mb-4">
+                            <label for="inputEmail4" class="form-label">SPH</label>
+                            <select id="inputState" class="form-select">
+                                <option>-2.00</option>
+                                <option>-1.75</option>
+                                <option>-1.50</option>
+                                <option>-1.25</option>
+                                <option>-1.00</option>
+                                <option>-0.75</option>
+                                <option>-0.50</option>
+                                <option>-0.25</option>
+                                <option selected>0.00</option>
+                                <option>+0.25</option>
+                                <option>+0.50</option>
+                                <option>+0.75</option>
+                                <option>+1.00</option>
+                                <option>+1.25</option>
+                                <option>+1.50</option>
+                                <option>+1.75</option>
+                                <option>+2.00</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <label for="inputPassword4" class="form-label">CYL</label>
+                            <select id="inputState" class="form-select">
+                                <option>-2.00</option>
+                                <option>-1.75</option>
+                                <option>-1.50</option>
+                                <option>-1.25</option>
+                                <option>-1.00</option>
+                                <option>-0.75</option>
+                                <option>-0.50</option>
+                                <option>-0.25</option>
+                                <option selected>0.00</option>
+                                <option>+0.25</option>
+                                <option>+0.50</option>
+                                <option>+0.75</option>
+                                <option>+1.00</option>
+                                <option>+1.25</option>
+                                <option>+1.50</option>
+                                <option>+1.75</option>
+                                <option>+2.00</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <label for="inputPassword4" class="form-label">Axis</label>
+                            <select id="inputState" class="form-select">
+                                <option selected>0</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                                <option>11</option>
+                                <option>12</option>
+                                <option>13</option>
+                                <option>14</option>
+                                <option>15</option>
+                                <option>16</option>
+                                <option>17</option>
+                                <option>18</option>
+                                <option>19</option>
+                                <option>20</option>
+                                <option>21</option>
+                                <option>22</option>
+                                <option>23</option>
+                                <option>24</option>
+                                <option>25</option>
+                                <option>26</option>
+                            </select>
+                        </div>
+
+                        <div class="col-md-4">
+                        <label for="inputState" class="form-label">Birth Year</label>
+                        <select id="inputState" class="form-select">
+                            <option selected>Select Year</option>
+                            <option>2022</option>
+                            <option>2021</option>
+                            <option>2020</option>
+                            <option>2019</option>
+                            <option>2018</option>
+                            <option>2017</option>
+                            <option>2016</option>
+                            <option>2015</option>
+                            <option>2014</option>
+                            <option>2013</option>
+                            <option>2012</option>
+                            <option>2011</option>
+                            <option>2010</option>
+                            <option>2009</option>
+                            <option>2008</option>
+                            <option>2007</option>
+                            <option>2006</option>
+                            <option>2005</option>
+                            <option>2004</option>
+                            <option>2003</option>
+                            <option>2002</option>
+                            <option>2001</option>
+                            <option>2000</option>
+                            <option>1999</option>
+                            <option>1998</option>
+                            <option>1997</option>
+                            <option>1996</option>
+                            <option>1995</option>
+                            <option>1994</option>
+                            <option>1993</option>
+                            <option>1992</option>
+                            <option>1991</option>
+                            <option>1990</option>
+                        </select>
+                        </div>
+                        
+                        <div class="col-12 d-flex align-items-center justify-content-center">
+                        <button type="submit" class="btn btn-primary w-25">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  
+    <!--*************************************
+    Form section end
+    ***************************************-->
+
+
+
+
+
+
+    <!--*************************************
+      Footer section start
+    ***************************************-->
+    <Footer id="footer-main">
+        <div class="container">
+         <div class="row text-white pt-5">
+           <div class="col-2">
+             <div>
+               <h6>BRANDS</h6>
+               <ul class="list-unstyled">
+                 <li>Ray-Ban</li>
+                 <li>Oakley</li>
+                 <li>Versace</li>
+                 <li>Coach</li>
+                 <li>Michael Kors</li>
+                 <li>Prada</li>
+                 <li>View all Brands</li>
+               </ul>
+             </div>
+           </div>
+           <div class="col-2">
+             <div >
+               <h6>EYECARE</h6>
+               <ul class="list-unstyled">
+                 <li>Our Lenses</li>
+                 <li>Schedule an Eye Exam</li>
+                 <li>Vision Guide</li>
+                 <li>Eyewear Glossary</li>
+                 <li>Measuring your PD</li>
+                 <li>Tips From Our Experts</li>
+                 <li>Blue Light Glasses</li>
+               </ul>
+             </div>
+           </div>
+           <div class="col-2">
+             <div >
+               <h6>SAVINGS</h6>
+               <ul class="list-unstyled">
+                 <li>Offers & DIscount</li>
+                 <li>Insurance</li>
+                 <li>FSA & HSA</li>
+                 <li>LensCrafters credit card</li>
+                 <li>AAA Members</li>
+                 <li>AARP Members</li>
+                 <li>UNiDAYS</li>
+               </ul>
+             </div>
+           </div>
+           <div class="col-2">
+             <div>
+               <h6>CUSTOMER SERVICE</h6>
+               <ul class="list-unstyled">
+                 <li>Personalized services</li>
+                 <li>Purchase Care</li>
+                 <li>Online Order Status</li>
+                 <li>Shipping & Returns</li>
+                 <li>FAQ</li>
+                 <li>Live chat</li>
+                 <li>Contact us</li>
+               </ul>
+             </div>
+           </div>
+           <div class="col-2">
+             <div >
+               <h6>LEGAL</h6>
+               <ul class="list-unstyled">
+                 <li>Privacy Policy</li>
+                 <li>Terms & Conditions</li>
+                 <li>Indepensent Doctor's</li>
+                 <li>Notice</li>
+                 <li>AdChoices</li>
+                 <li>Webld: 626072466</li>
+                 <li>Do not sell my personal infrma</li>
+               </ul>
+             </div>
+           </div>
+           <div class="col-2">
+             <div>
+               <h6>COMPANY INFO</h6>
+               <ul class="list-unstyled">
+                 <li>About us</li>
+                 <li>Our Flagship Store</li>
+                 <li>Careers</li>
+                 <li>Find a store</li>
+                 <li>Site Map</li>
+                 <li>Ray-Ban</li>
+                 <li>Ray-Ban</li>
+               </ul>
+             </div>
+           </div>
+          
+         </div>
+         <hr>
+         <div class="text-white d-flex">
+           <div>
+             <i class=" ps-2 fab fa-facebook-f"></i>
+           <i class="ps-2 fab fa-twitter"></i>
+           <i class=" ps-2 fab fa-instagram"></i>
+           <i class="ps-2 fab fa-pinterest-p"></i>
+           <i class="ps-2 fab fa-youtube"></i>
+           </div>
+          <i  class=" text-center m-auto">© 2022 LensCrafters All Rights Reserved</i>
+         </div>
+        </div>
+     
+ 
+     </Footer>
+     <!--*************************************
+       Footer section start
+     ***************************************-->
+
+     
+
+<!-- jqurey  -->
+<script type="text/javascript" src="assets/js/Jqurey.js"></script>
+<!-- lightslider.js  -->
+<script type="text/javascript" src="assets/js/lightslider.js"></script>
+
+
+
+
+  <!-- Bootstrap bundle link    -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <!-- javascript file link  -->
+  <script type="text/javascript" src="assets/js/script.js"></script>
+
+</body>
